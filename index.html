@@ -1,0 +1,137 @@
+<html>
+<title>Capo Bicolore</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@font-face {
+  font-family:"test"; font-weight: 200 700;
+  src:url("/Pass-A38/font/Pass_A38.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family:"test2"; font-style: normal;
+  src:url("font/capoBicolore.woff2") format("woff2");
+}
+@font-face {
+  font-family:"test3"; font-style: normal;
+  src:url("/Vermiglione/font/vermiglione.woff2") format("woff2");
+}
+body { font-family:"test", sans-serif; font-size:16pt;margin:0;padding:0; background: #f3f1ea }
+div { margin:0; padding:0; }
+
+a { color: #06c }
+
+header { width: 100%; margin:0; padding:0 }
+header > div { width:100%; color: #fff }
+header > div.info { background: #5a5351; }
+header > div.titolo { background: #918583; }
+header > div > div { width: 1180px; margin: 0px auto; padding:0 }
+header div div p { margin:0;padding:5px 10px; font-size: 14pt }
+header div div h1 { margin:0;padding:20px 10px; font-size: 30px; font-weight: 400; color: #fff }
+
+section { width: 1180px; margin:60px auto 60px; padding:0 }
+article { width: 890px; margin: 0px 0 0px 290; padding:0 }
+article p { margin: 5px 10px; padding:0; color: #332925 }
+article p.nota { font-size: 14pt; color: #444 }
+article p.nota a.refn { font-weight: 600; }
+
+h2 { font-family:"test", sans-serif; margin:30px 10px;padding:0; font-size: 48px; font-weight: 400; color: #800 }
+h3 { font-family:"test", sans-serif; margin:20px 10px;padding:0; font-size: 40px; font-weight: 400; color: #800 }
+h4 { margin:20px 10px;padding:0; font-size: 24px; font-weight: 400; color: #800 }
+
+a.bia { color: #fff }
+a.ref { font-size: 60%; vertical-align: super; font-weight: 700 }
+
+hr { border:0; border-bottom: 1px solid #666; margin: 20px; padding:0 }
+
+.testo { color: #000; width:90%; margin: 20px 10px; border: 1px solid #888; font-family:"test2", sans-serif; font-size:64pt; background: #f3f1ea; padding: 4px; line-height: 1em }
+.testo:focus { outline: none }
+
+footer { padding:0; margin:0; width: 100%; background: #666; color: #fff }
+footer > div { padding:40 0; margin:0 auto; width: 1180px }
+footer p { margin: 0 10px; font-size: 18px }
+
+div.side {width: 249px; margin: 30px 0 0; padding:10px 10px 5px; float:left; border-right:1px solid #555; color: #666 }
+
+.evid { color: #000; background: #e9e5d8 }
+
+p.capol3 .cap { color: #918583; font-family: "test2", sans-serif; font-feature-settings: 'ss01'; float: left; line-height: 1em; font-size: 5.5rem; margin-right: 0.1em; }
+p.capol3 .cap span { color: #800; font-feature-settings: 'ss02'; }
+	
+p.alfa { font-family: "test2", sans-serif; font-size: 64pt; margin: 15px 10px; color: #666 /* #c9211e */ }
+.ss01 { font-feature-settings: 'ss01'; color: #918583 }
+.ss02 { font-feature-settings: 'ss02'; color: #800 }
+	
+@media only screen and (max-width: 1200px) {
+ header > div > div { width: 100%; }
+ section { width: 100% }
+ article { width: 100%; margin: 0; }
+ footer > div { width: 100% }
+ div.side {display:none }
+}
+</style>
+<body>
+	<header>
+		<div class="info">
+			<div>
+				<p><a href="https://github.com/m-casanova/CapoBicolore" class="bia">← Github</a></p>
+			</div>
+		</div>
+		<div class="titolo">
+			<div>
+				<h1>Capo Bicolore</h1>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="side">
+			<p>Una breve descrizione del font "Capo Bicolore"</p>
+		</div>
+		<article>
+			<h2>Un font per capolettera</h2>
+
+			<h3>Descrizione</h3>
+			
+			<p>Il font "Capo Bicolore" è basato su capolettera gotici (<i>Gotische Initialen</i>) <a target="_blank" href="https://archive.org/details/schriftenatlasei00petz/page/n159/mode/2up">pubblicati da Ludwig Petzendorfer nel 1894</a>. Questo capolettera è stato già inserito nel carattere <a href="https://github.com/m-casanova/In-die-busillis">In die busillis</a>.</p>
+			<p>È possibile utilizzare il carattere come semplice capolettera monocromatico. Sono presenti solo i caratteri da A a Z.</p>
+			<p class="alfa">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+			<p>È anche possibile rendere ogni capolettera in due colori. Lo sfondo è selezionato tramite stile <b>ss01</b> mentre il carattere effettivo è dato dallo stile <b>ss02</b>. In entrambi i casi si utilizza il carattere maiuscolo.</p>
+			<p class="alfa">
+				<span class="ss01">A</a><span class="ss02">A</a>
+				<span class="ss01">B</a><span class="ss02">B</a>
+				<span class="ss01">C</a><span class="ss02">C</a>
+				<span class="ss01">D</a><span class="ss02">D</a>
+				<span class="ss01">E</a><span class="ss02">E</a>
+				<span class="ss01">F</a><span class="ss02">F</a>
+				<span class="ss01">G</a><span class="ss02">G</a>
+				<span class="ss01">H</a><span class="ss02">H</a>
+				<span class="ss01">I</a><span class="ss02">I</a>
+				<span class="ss01">J</a><span class="ss02">J</a>
+				<span class="ss01">K</a><span class="ss02">K</a>
+				<span class="ss01">L</a><span class="ss02">L</a>
+				<span class="ss01">M</a><span class="ss02">M</a>
+				<span class="ss01">N</a><span class="ss02">N</a>
+				<span class="ss01">O</a><span class="ss02">O</a>
+				<span class="ss01">P</a><span class="ss02">P</a>
+				<span class="ss01">Q</a><span class="ss02">Q</a>
+				<span class="ss01">R</a><span class="ss02">R</a>
+				<span class="ss01">S</a><span class="ss02">S</a>
+				<span class="ss01">T</a><span class="ss02">T</a>
+				<span class="ss01">U</a><span class="ss02">U</a>
+				<span class="ss01">V</a><span class="ss02">V</a>
+				<span class="ss01">W</a><span class="ss02">W</a>
+				<span class="ss01">X</a><span class="ss02">X</a>
+				<span class="ss01">Y</a><span class="ss02">Y</a>
+				<span class="ss01">Z</a><span class="ss02">Z</a>
+			</p>
+			<h3>Esempio</h3>
+			<p>Utilizzo del font <i>Capo Bicolore</i> con il <a href="https://github.com/m-casanova/Vermiglione">font Vermiglione</a>:</p>
+			<p class="capol3"><span class="cap">L<span>L</span></span>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus dolor eget tellus tincidunt, sit amet mollis ante luctus. Quisque non est maximus, tempus tellus at, faucibus tortor. In quis placerat nibh. Vivamus eu ante imperdiet, aliquet enim id, mattis orci. Cras et magna id nisl iaculis sollicitudin. Nunc ut erat et sapien posuere auctor. Donec sed augue eleifend, vestibulum est eget, rhoncus leo.</p>			
+		</article>
+	</section>
+	<footer>
+		<div>
+			<p>&copy; 2024 Michele Casanova
+		</div>
+	</footer>
+<body>
+</html>
