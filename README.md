@@ -1,4 +1,5 @@
 # Capo Bicolore
+* Versione 1.101: fix esportazione
 * Versione 1.0: versione iniziale
 
 Per testare il font, vedere la [pagina interattiva](https://m-casanova.github.io/CapoBicolore/).
