@@ -1,4 +1,5 @@
 # Capo Bicolore
+* Versione 1.500: fix dimensioni
 * Versione 1.101: fix esportazione
 * Versione 1.0: versione iniziale
 
